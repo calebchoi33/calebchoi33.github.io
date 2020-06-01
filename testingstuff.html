@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<!--
+	Horizons by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Horizons by TEMPLATED</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+			<link href="interactive-map.css" rel="stylesheet">
+		</noscript>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+
+		<!-- Header -->
+			<div id="header">
+				<div class="container">
+						
+					<!-- Logo -->
+					<!--	<h1><a href="#" id="logo"> Con-X </a></h1> -->
+					
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>
+									<a href=""> Live </a>
+									<ul>
+										<li><a href="#"> Hot Spots </a></li>
+										<li><a href="#"> Updates </a></li>
+										<li><a href="#"> Predictions</a></li>
+									</ul>
+								</li>
+								<li><a href="left-sidebar.html"> Background </a></li>
+								<li><a href="right-sidebar.html"> FAQ </a></li>
+								<li><a href="no-sidebar.html"> Resources/Contacts </a></li>
+							</ul>
+						</nav>
+
+
+					<!-- Banner -->
+						<div id="banner">
+							<div class="container">
+								<section>
+									<header class="major">
+										<h2> Con-X </h2>
+										<span class="byline"> We are the sustainable <a href = "https://www.un.org/sustainabledevelopment/sustainable-development-goals/"> GoalKeepers </a> </span>
+										<button type="button" onclick="myFunction()">Try it</button>
+										<script src="popup.js"></script>
+										<!-- Button to open the modal login form -->
+										<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+										<!-- The Modal -->
+										<div id="id01" class="modal">
+										  <span onclick="document.getElementById('id01').style.display='none'"
+										class="close" title="Close Modal">&times;</span>
+
+										  <!-- Modal Content -->
+										  <form class="modal-content animate" action="/action_page.php">
+										    <div class="imgcontainer">
+										      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+										    </div>
+
+										    <div class="container">
+										      <label for="uname"><b>Username</b></label>
+										      <input type="text" placeholder="Enter Username" name="uname" required>
+
+										      <label for="psw"><b>Password</b></label>
+										      <input type="password" placeholder="Enter Password" name="psw" required>
+
+										      <button type="submit">Login</button>
+										      <label>
+										        <input type="checkbox" checked="checked" name="remember"> Remember me
+										      </label>
+										    </div>
+
+										    <div class="container" style="background-color:#f1f1f1">
+										      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+										      <span class="psw">Forgot <a href="#">password?</a></span>
+										    </div>
+										  </form>
+										</div>
+									</header>
+								</section>			
+							</div>
+						</div>
+
+				</div>
+			</div>
+
+		<!-- Featured -->
+			<div class="container" >
+			   <div class="row ct-u-padding-bottom-40" >
+			      <div class="col-lg-6 col-lg-push-6 col-md-7 col-md-push-5" >
+			         <div class="ct-map" >
+			            <img alt="Map" class="ct-map__image" src="https://ontheworldmap.com/usa/us-states-map-max.jpg" >
+			            <div class="ct-city stone" >
+			               <button class="ct-city__button" type="button" tabindex="0" ><img alt="Map Open Icon" class="ct-plus" src="https://www.solodev.com/assets/map/map-plus.png"  data-pin-nopin="true"><img alt="Map Close Icon" class="ct-close" src="https://www.solodev.com/assets/map/map-close.png" data-pin-nopin="true" ><span class="ct-city__name" >Headquarters</span></button>
+			               <div class="ct-popup" >
+			                  <div class="inner" >
+			                     <span class="ct-popup__name" >HQ</span>
+			                     <p class="ct-popup__content" >
+			                        Corporate Headquarters<br />at 1400 N. Magnolia.
+			                     </p>
+			                  </div>
+			               </div>
+			            </div>
+			            <div class="ct-city orlando">
+			               <button class="ct-city__button" type="button" tabindex="0" ><img alt="Map Open Icon" class="ct-plus" src="https://www.solodev.com/assets/map/map-plus.png"  data-pin-nopin="true"><img alt="Map Close Icon" class="ct-close" src="https://www.solodev.com/assets/map/map-close.png"  data-pin-nopin="true"><span class="ct-city__name" >Local Office</span></button>
+			               <div class="ct-popup" >
+			                  <div class="inner" >
+			                     <span class="ct-popup__name" >Local</span>
+			                     <p class="ct-popup__content" >
+			                        Your local WebCorpCo office.
+			                     </p>
+			                  </div>
+			               </div>
+			            </div>
+			            <div class="ct-city orlando2" >
+			               <button class="ct-city__button" type="button" tabindex="0" ><img alt="Map Open Icon" class="ct-plus" src="https://www.solodev.com/assets/map/map-plus.png"  data-pin-nopin="true"><img alt="Map Close Icon" class="ct-close" src="https://www.solodev.com/assets/map/map-close.png" ><span class="ct-city__name" >Regional Office</span></button>
+			               <div class="ct-popup" >
+			                  <div class="inner" >
+			                     <span class="ct-popup__name" >Regional</span>
+			                     <p class="ct-popup__content" >
+			                        Regional Headquarters<br />at 435 Curson Ave.
+			                     </p>
+			                  </div>
+			               </div>
+			            </div>
+			         </div>
+			      </div>
+			      
+			   </div>
+			</div>
+
+		<!-- Main -->
+			
+
+		<!-- Footer -->
+			<div id="footer">
+				<div class="container">
+
+					<!-- Lists -->
+						<div class="row">
+							<div class="8u">
+								<section>
+									<header class="major">
+										<h2>Donec dictum metus</h2>
+										<span class="byline">Quisque semper augue mattis wisi maecenas ligula</span>
+									</header>
+									<div class="row">
+										<section class="6u">
+											<ul class="default">
+												<li><a href="#">Pellentesque elit non gravida blandit.</a></li>
+												<li><a href="#">Lorem ipsum dolor consectetuer elit.</a></li>
+												<li><a href="#">Phasellus nibh pellentesque congue.</a></li>
+												<li><a href="#">Cras vitae metus aliquam  pharetra.</a></li>
+											</ul>
+										</section>
+										<section class="6u">
+											<ul class="default">
+												<li><a href="#">Pellentesque elit non gravida blandit.</a></li>
+												<li><a href="#">Lorem ipsum dolor consectetuer elit.</a></li>
+												<li><a href="#">Phasellus nibh pellentesque congue.</a></li>
+												<li><a href="#">Cras vitae metus aliquam  pharetra.</a></li>
+											</ul>
+										</section>
+									</div>
+								</section>
+							</div>
+							<div class="4u">
+								<section>
+									<header class="major">
+										<h2>Donec dictum metus</h2>
+										<span class="byline">Mattis wisi maecenas ligula</span>
+									</header>
+									<ul class="contact">
+										<li>
+											<span class="address">Address</span>
+											<span>1234 Somewhere Road #4285 <br />Nashville, TN 00000</span>
+										</li>
+										<li>
+											<span class="mail">Mail</span>
+											<span><a href="#">someone@untitled.tld</a></span>
+										</li>
+										<li>
+											<span class="phone">Phone</span>
+											<span>(000) 000-0000</span>
+										</li>
+									</ul>	
+								</section>
+							</div>
+						</div>
+
+					<!-- Copyright -->
+						<div class="copyright">
+							Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+						</div>
+
+				</div>
+			</div>
+
+	</body>
+</html>
